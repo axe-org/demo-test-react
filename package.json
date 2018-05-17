@@ -1,0 +1,22 @@
+{
+  "name": "demo-test-react",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "build": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.js --dev false --bundle-output bundle.js"
+  },
+  "dependencies": {
+    "axe-react": "^0.1.2",
+    "react": "16.3.0",
+    "react-native": "0.54.1",
+    "react-native-easy-toast": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "22.4.1",
+    "babel-preset-react-native": "4.0.0",
+    "react-test-renderer": "^16.3.0-alpha.1"
+  }
+}
